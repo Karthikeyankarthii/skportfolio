@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saravana's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!-- AOS (for animations) -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-font -awesome"></i>
+            <a href="#">Portfolio &#128153</a>
+        </div>
+        <div class="menu">
+            <div class="menu-links">
+                <a href="#home">Home &#127968;</a>
+                <a href="#about">About &#8505;</a>
+                <a href="#contact">Contact &#128222;</a>
+                <a href="#project">Projects &#128187;</a>
+            </div>
+            <button id="#contact" class="log-in">Contact-Me <p>&#128222</p></button>
+        </div>
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div id="home" class="port-container">
+        <div class="img-section">
+            <img src="./Public/IMG_20241207_134734.jpg" alt="sk-img" class="sk-img">
+        </div>
+        <div class="content-sec">
+            <h1>Hi, I'm <span>Saravana</span></h1>
+            <p>A passionate <strong>Frontend Developer</strong> and<Strong> Designer</Strong> with a love for crafting
+                clean, responsive, and user-friendly web interfaces.I specialize in creating visually stunning designs
+                and bringing them to life with code.</p>
+            <a href="#contact" class="skk">Contact Me &#10084;</a>
+        </div>
+    </div>
+    <!-- About Section -->
+    <section id="about" class="about-container">
+        <div class="about-content">
+            <h1>About Me</h1>
+            <p>I'm a dedicated and enthusiastic <strong> Frontend Developer</strong> and <strong> Designer</strong> with
+                a strong foundation in technology and design.
+                I am pursuing my <strong> Bachelor of Science in Technology </strong> (BSc IT) at <strong> GTN Arts
+                    College</strong>, currently in my third year.</p>
+            <p>Alongside my studies, I am privileged to work at <strong>ZYTO LTD</strong>, where I hold the position of
+                <strong>Frontend Developer and Designer</strong>. I specialize in creating visually appealing and
+                interfaces that prioritize users experience.
+            </p>
+            <p>Passionate about continuous learning, I stay updated on the latest trends in web development and design,
+                ensuring my work is both innovative and contribute to impactful projects and grow as a professional in
+                the tech industry.</p>
+            <p>Outside work,I am a team player, problem solver, and someone who values creativity and attention detail.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="project" class="projects">
+        <div class="about-container-1">
+            <h1>My Projects</h1>
+            <div class="project-cards">
+                <div class="project-card" data-aos="fade-up">
+                    <img src="./Public/food landing img.png" alt="food-img">
+                    <h3>FOOD LANDING PAGE</h3>
+                    <p>This Landing page is designed to showcase a variety of delicious dishes and cuisines to entice
+                        food loves.Users to explore more about food options,menus,or services provided.</p>
+                </div>
+                <div class="project-card" data-aos="fade-up">
+                    <img src="./Public/e-comm img.png" alt="">
+                    <h3>E-COMMERCE PAGE</h3>
+                    <p>This is a simple and visually appealing landing page for an e-commerce website designed to
+                        attract customers and showcase products effectively.It focuses on user-friendly navigation,clean
+                        design,and essential features to provide shopping experience.</p>
+                </div>
+                <div class="project-card" data-aos="fade-up">
+                    <img src="./Public/blood img.png" alt="">
+                    <h3>BLOOD DONOR PAGE</h3>
+                    <p>This is a straightforward and impactful landing page for a blood donor website aimed at
+                        connecting donors with those in need.The design prioritizes accessibility,clarity, and a call
+                        action to encourage visitors to register as donors or request blood.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container-contact">
+            <form id="contactForm">
+                <h1>Contact</h1>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="ex:saravanakumar" required>
+
+                <label for="number">Mobile Number</label>
+                <input type="number" id="number" name="number" placeholder="1234567890" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message <p>&#9993;</p></button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Saravana. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
